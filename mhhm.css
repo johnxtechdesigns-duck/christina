@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+h1{
+    
+    font-weight:200;
+    text-transform:uppercase;
+    border-top:5px solid;
+    font-size: 70px;
+
+
+}
+
+body{
+	background-color:#f69680;
+	color:#2e1263;
+	font-family:"Atinknson Hyperlegible Mono"; 
+	font-weight:200;
+
+}
+img{
+    height:500px;
+    border-radius:50%;
+
+}
+
+#container{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+
+}
+
+button{
+    margin:30px auto 0;
+    padding: 20px 25px;
+      background-color:#f69680;
+      font-size: 14px;
+    text-align: center;
+    border: 1px solid #2e1263;
+     text-transform:uppercase;
+     text-decoration: none;
+     outline: none;
+     letter-spacing: 4px;
+
+}
+
+button:hover{
+        transition: 0.3s;
+       background-color: #2e1263;
+       color:#f69680;
+       text-decoration: underline;
+
+}
+ p{
+    font-size: 20px;
+ }
